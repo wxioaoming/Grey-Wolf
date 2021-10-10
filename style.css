@@ -1,0 +1,126 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.main{
+    width: 320px;
+    height: 480px;
+    background: url(./img/game_bg.jpg) no-repeat 0 0;
+    margin: 50px auto;
+    position: relative;
+}
+h1{
+    color: #fff;
+    position: absolute;
+    left: 60px;
+}
+.tiao{
+    width: 180px;
+    height: 16px;
+    background: url(./img/progress.png) no-repeat 0 0;
+    position: absolute;
+    top: 66px;
+    left: 63px;
+}
+.begin{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(#ff6000,#ff1e00);
+    border:none;
+    outline: none;
+    top: 65%;
+    left: 90px;
+    cursor: pointer;
+}
+.youx{
+    position: absolute;
+    bottom: 0;
+    background: #ccc;
+    cursor: pointer;
+    width: 320px;
+    text-align: center;
+    height: 22px;
+}
+.guize{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding-top: 100px;
+    display: none;
+}
+.guize>p{
+    line-height: 50px;
+}
+.guize>a{
+    text-decoration: none;
+    color: #fff;
+}
+.again{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding-top: 200px;
+    display: none;
+}
+.again>h1{
+    font-size: 35px;
+    position: absolute;
+    left: 50px;
+    color: tomato;
+    text-shadow: 3px 3px 0 #fff;
+}
+.again>.again_in{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(#3254d1,#0f3deb);
+    border:none;
+    outline: none;
+    top: 65%;
+    left: 90px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
